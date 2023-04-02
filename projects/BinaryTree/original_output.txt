@@ -1,0 +1,56 @@
+Before
+IntIndex information
+BTreeNodes
+33f8[3,1]
+d1e0<-   ->d200
+L->d1e0[1,2]
+0000<-   ->0000
+R->d200[6,7]
+0000<-   ->d220
+R->d220[8,9]
+0000<-   ->d240
+R->d240[12,14]
+0000<-   ->0000
+FreeListNodes
+3418->0000
+
+After 1 Free List Item
+IntIndex information
+BTreeNodes
+33f8[3,1]
+d1e0<-   ->d200
+L->d1e0[1,2]
+0000<-   ->0000
+R->d200[6,7]
+0000<-   ->d220
+R->d220[12,14]
+0000<-   ->0000
+FreeListNodes
+3418->0000
+
+After 2 Free List Items
+IntIndex information
+BTreeNodes
+33f8[3,1]
+d1e0<-   ->d200
+L->d1e0[1,2]
+0000<-   ->0000
+R->d200[12,14]
+0000<-   ->0000
+FreeListNodes
+3418->0000
+
+After Back to 1 Free List Item
+IntIndex information
+BTreeNodes
+33f8[3,1]
+d1e0<-   ->d200
+L->d1e0[1,2]
+0000<-   ->0000
+R->d200[12,14]
+0000<-   ->d220
+R->d220[75,12]
+0000<-   ->0000
+FreeListNodes
+3418->0000
+
